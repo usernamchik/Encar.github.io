@@ -1,0 +1,265 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+  
+}
+
+
+.logo-company  {
+display: flex;
+justify-content: flex-end;
+
+}
+
+img {
+    border-radius:15px ;
+}
+.navbar a {
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.navbar  {
+    padding: 25px;
+    border-radius: 0 0 50px;
+    
+}
+#car-catalog {
+    margin-top: 100px;
+}
+.container {
+    max-width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about-b {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.about-block {
+    background-color: #171717;
+    height: 600px;
+}
+
+.about-plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.about-plus-1 {
+    text-align: center  ;
+    width: 190;
+    height: 152px;
+    overflow: hidden;
+}
+.about-plus-2 {
+    text-align: center  ;
+    width: 220px;
+    height: 152px;
+    overflow: hidden;
+}
+.about-plus-3 {
+    text-align: center  ;
+    width: 190;
+    height: 152px;
+    overflow: hidden;
+}
+
+.container a {
+    margin: 20px;
+} 
+.container  p {
+    color: white;
+}
+.container  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container  h1 span {
+    color: red;
+    background-color: #171717;
+}
+
+.auto h1 {
+    font-size: 20;
+    
+}
+
+
+.full-spisok h1 {
+text-align: center;
+font-size: 23px;
+margin-top: 80px;
+}
+
+.col p, h3{
+    color: black;
+    text-align: start;
+}
+
+.col button {
+    color: white;
+    background-color: #FF0303;
+    border-color: red;
+    height: 43px;
+    border-radius:20px ;
+    font-size: 20px;
+    margin-right: 700px;
+}
+
+#block h1  {
+    color:black ;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#carouselExample {
+    margin-top: 100px;
+
+}
+
+#text-photo h3 {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#text-photo-1 h3 {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+ 
+}
+
+.footer {
+    background-color: black;
+    margin-top: 120px;
+ 
+}
+
+
+.back-to-top {
+    position: fixed;
+    right: 45px;
+    bottom: 20px;
+
+}
+
+.back-to-top img {
+border-radius: 50px;
+}  
+
+#contact-us img{
+    border-radius: 50px;
+}
+
+#contact-us {
+position: fixed;
+right: 30px;
+bottom: 110px;
+background:transparent;
+border: none;
+}
+
+.modal-body {
+    text-align: start;
+}
+
+span {
+    background-color: black; 
+}
+
+
+
+/*FOOTER*/
+
+.maps h1 {
+text-align: center;
+color: white;
+}
+
+.modal-footer-color button {
+    background-color: red;
+    border: red;
+    border-radius: 20px;
+}
+
+
+.Footer-card-list {
+border-top-color: rgb(31, 32, 33);
+border-top-style: solid;
+border-top-width: 2px;
+display: flex;
+flex-direction: column;
+font-family: "Proxima Nova", Roboto, Arial, Helvetica, sans-serif;
+font-size: 14px;
+
+}
+.Footer-card-list a {
+text-decoration: none;
+color: white;
+width: max-content;
+}
+
+.Encar {
+   margin-top: -21px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+
+
+
+.social-ceti {
+    margin-top: 40px;
+   
+}
+.social-ceti a {
+margin-right: 20px;
+}
+
+    /*MEDIA*/
+
+   
+     
+      /* Media Queries для адаптивности */
+      @media (max-width: 1399px) {
+        .modal-body input[type="text"] {
+          font-size: 14px; 
+        }
+      
+        .row-cols-2   {
+            flex-direction: column;
+        }
+     
+        .col img {
+            width: 520px;
+            margin-top: 20px;
+            margin-right: 100%;
+          
+        }
+        .social-ceti img{
+          width: 30px;
+        }
+        .modal-body input[type="text"] {
+            width: 190px;
+            height: 30px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+          }
+        
+    }
+    
+     
+    
+
+
+
+    
+    
